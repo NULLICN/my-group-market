@@ -1,9 +1,7 @@
 package org.example.domain.activity.service.trial.factory;
 
-import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 import org.example.domain.activity.model.entity.MarketProductEntity;
 import org.example.domain.activity.model.entity.TrialBalanceEntity;
 import org.example.domain.activity.service.trial.node.RootNode;
@@ -23,9 +21,9 @@ public class DefaultActivityStrategyFactory {
 
     @Data
     @Builder
-    @AllArgsConstructor
-    @NoArgsConstructor
     public static class DynamicContext {
 
+        public DynamicContext() {
+        }
     }
 }
