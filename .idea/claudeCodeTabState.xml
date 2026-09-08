@@ -7,9 +7,9 @@
           <value>
             <TabSessionState>
               <option name="provider" value="claude" />
-              <option name="sessionId" value="cf95b0a5-1e62-4db0-90cf-8db3f347a764" />
-              <option name="cwd" value="$PROJECT_DIR$" />
-              <option name="model" value="claude-sonnet-4-6[1m]" />
+              <option name="sessionId" value="054ac89b-9913-49fe-8558-03187f4852ce" />
+              <option name="cwd" value="D:\CODE\my-group-market" />
+              <option name="model" value="claude-opus-5[1m]" />
               <option name="permissionMode" value="acceptEdits" />
             </TabSessionState>
           </value>
