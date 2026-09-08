@@ -40,3 +40,6 @@ build/
 
 ### Claude ###
 claudeCodeTabState.xml
+
+### Logs ###
+**/data/log/
