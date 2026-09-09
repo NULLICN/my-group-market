@@ -43,3 +43,6 @@ claudeCodeTabState.xml
 
 ### Logs ###
 **/data/log/
+
+### Local dev config ###
+my-group-market-app/src/main/resources/application-dev.yml
