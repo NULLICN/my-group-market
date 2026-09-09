@@ -12,6 +12,8 @@ import org.example.domain.activity.service.trial.node.RootNode;
 import org.example.types.design.framework.tree.StrategyHandler;
 import org.springframework.stereotype.Service;
 
+import java.math.BigDecimal;
+
 @Service
 public class DefaultActivityStrategyFactory {
 
@@ -34,5 +36,7 @@ public class DefaultActivityStrategyFactory {
         private GroupBuyActivityDiscountVO groupBuyActivityDiscountVO;
         // 商品信息
         private SkuVO skuVO;
+        // 折扣价格
+        private BigDecimal deductionPrice;
     }
 }
